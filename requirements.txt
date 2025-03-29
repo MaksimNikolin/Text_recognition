@@ -1,0 +1,5 @@
+transformers==4.50.2
+click==8.1.8
+torch==2.6.0
+python-dotenv==1.1.0
+huggingface_hub==0.29.3
