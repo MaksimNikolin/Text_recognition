@@ -28,4 +28,4 @@ run: clean
 	@. $(VENV_NAME)/bin/activate && huggingface-cli login --token $$HUGGINGFACE_TOKEN --add-to-git-credential
 	@echo ""
 	@echo "RUNNING SUMMARIZER..."
-	@python3 main.py "$(shell cat examples/example_text.txt)"
+	@python3 app.py
